@@ -1,0 +1,361 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C9094109261F990300AE0043 /* WXYZr_AppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9094108261F990300AE0043 /* WXYZr_AppApp.swift */; };
+		C909410B261F990300AE0043 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C909410A261F990300AE0043 /* ContentView.swift */; };
+		C909410D261F990B00AE0043 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C909410C261F990B00AE0043 /* Assets.xcassets */; };
+		C9094110261F990B00AE0043 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C909410F261F990B00AE0043 /* Preview Assets.xcassets */; };
+		C92AE4CF2620CCD600D432B0 /* PartnersView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C92AE4CE2620CCD600D432B0 /* PartnersView.swift */; };
+		C92AE4D22620CDB800D432B0 /* AboutUsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C92AE4D12620CDB800D432B0 /* AboutUsView.swift */; };
+		C92AE4D52620CDD600D432B0 /* HistoryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C92AE4D42620CDD600D432B0 /* HistoryView.swift */; };
+		C92AE4D82620CDEA00D432B0 /* TroubleshootView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C92AE4D72620CDEA00D432B0 /* TroubleshootView.swift */; };
+		C97E311E262782F800D4DB38 /* GoToLinkView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C97E311D262782F800D4DB38 /* GoToLinkView.swift */; };
+		C9DD497D261FBA5B0080A920 /* SideMenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9DD497C261FBA5B0080A920 /* SideMenuView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		C9094105261F990300AE0043 /* WXYZr App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "WXYZr App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C9094108261F990300AE0043 /* WXYZr_AppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WXYZr_AppApp.swift; sourceTree = "<group>"; };
+		C909410A261F990300AE0043 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		C909410C261F990B00AE0043 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C909410F261F990B00AE0043 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		C9094111261F990B00AE0043 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C92AE4CE2620CCD600D432B0 /* PartnersView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PartnersView.swift; sourceTree = "<group>"; };
+		C92AE4D12620CDB800D432B0 /* AboutUsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutUsView.swift; sourceTree = "<group>"; };
+		C92AE4D42620CDD600D432B0 /* HistoryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoryView.swift; sourceTree = "<group>"; };
+		C92AE4D72620CDEA00D432B0 /* TroubleshootView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TroubleshootView.swift; sourceTree = "<group>"; };
+		C97E311D262782F800D4DB38 /* GoToLinkView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoToLinkView.swift; sourceTree = "<group>"; };
+		C99C81FF262553340006CA25 /* WXYZr App.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "WXYZr App.entitlements"; sourceTree = "<group>"; };
+		C9DD497C261FBA5B0080A920 /* SideMenuView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SideMenuView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C9094102261F990300AE0043 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C90940FC261F990300AE0043 = {
+			isa = PBXGroup;
+			children = (
+				C9094107261F990300AE0043 /* WXYZr App */,
+				C9094106261F990300AE0043 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C9094106261F990300AE0043 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C9094105261F990300AE0043 /* WXYZr App.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C9094107261F990300AE0043 /* WXYZr App */ = {
+			isa = PBXGroup;
+			children = (
+				C99C81FF262553340006CA25 /* WXYZr App.entitlements */,
+				C9094108261F990300AE0043 /* WXYZr_AppApp.swift */,
+				C909410A261F990300AE0043 /* ContentView.swift */,
+				C909410C261F990B00AE0043 /* Assets.xcassets */,
+				C9094111261F990B00AE0043 /* Info.plist */,
+				C909410E261F990B00AE0043 /* Preview Content */,
+				C9DD497C261FBA5B0080A920 /* SideMenuView.swift */,
+				C92AE4D42620CDD600D432B0 /* HistoryView.swift */,
+				C92AE4D72620CDEA00D432B0 /* TroubleshootView.swift */,
+				C92AE4CE2620CCD600D432B0 /* PartnersView.swift */,
+				C92AE4D12620CDB800D432B0 /* AboutUsView.swift */,
+				C97E311D262782F800D4DB38 /* GoToLinkView.swift */,
+			);
+			path = "WXYZr App";
+			sourceTree = "<group>";
+		};
+		C909410E261F990B00AE0043 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				C909410F261F990B00AE0043 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C9094104261F990300AE0043 /* WXYZr App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C9094114261F990B00AE0043 /* Build configuration list for PBXNativeTarget "WXYZr App" */;
+			buildPhases = (
+				C9094101261F990300AE0043 /* Sources */,
+				C9094102261F990300AE0043 /* Frameworks */,
+				C9094103261F990300AE0043 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "WXYZr App";
+			productName = "WXYZr App";
+			productReference = C9094105261F990300AE0043 /* WXYZr App.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C90940FD261F990300AE0043 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+				TargetAttributes = {
+					C9094104261F990300AE0043 = {
+						CreatedOnToolsVersion = 12.4;
+					};
+				};
+			};
+			buildConfigurationList = C9094100261F990300AE0043 /* Build configuration list for PBXProject "WXYZr App" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C90940FC261F990300AE0043;
+			productRefGroup = C9094106261F990300AE0043 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C9094104261F990300AE0043 /* WXYZr App */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C9094103261F990300AE0043 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C9094110261F990B00AE0043 /* Preview Assets.xcassets in Resources */,
+				C909410D261F990B00AE0043 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C9094101261F990300AE0043 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C9DD497D261FBA5B0080A920 /* SideMenuView.swift in Sources */,
+				C97E311E262782F800D4DB38 /* GoToLinkView.swift in Sources */,
+				C92AE4D52620CDD600D432B0 /* HistoryView.swift in Sources */,
+				C909410B261F990300AE0043 /* ContentView.swift in Sources */,
+				C92AE4D82620CDEA00D432B0 /* TroubleshootView.swift in Sources */,
+				C9094109261F990300AE0043 /* WXYZr_AppApp.swift in Sources */,
+				C92AE4CF2620CCD600D432B0 /* PartnersView.swift in Sources */,
+				C92AE4D22620CDB800D432B0 /* AboutUsView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		C9094112261F990B00AE0043 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		C9094113261F990B00AE0043 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C9094115261F990B00AE0043 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "WXYZr App/WXYZr App.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"WXYZr App/Preview Content\"";
+				DEVELOPMENT_TEAM = 7D7VHD25MG;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "WXYZr App/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.TeamWXYZr.WXYZr-App";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		C9094116261F990B00AE0043 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "WXYZr App/WXYZr App.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"WXYZr App/Preview Content\"";
+				DEVELOPMENT_TEAM = 7D7VHD25MG;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "WXYZr App/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.TeamWXYZr.WXYZr-App";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C9094100261F990300AE0043 /* Build configuration list for PBXProject "WXYZr App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C9094112261F990B00AE0043 /* Debug */,
+				C9094113261F990B00AE0043 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C9094114261F990B00AE0043 /* Build configuration list for PBXNativeTarget "WXYZr App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C9094115261F990B00AE0043 /* Debug */,
+				C9094116261F990B00AE0043 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C90940FD261F990300AE0043 /* Project object */;
+}
